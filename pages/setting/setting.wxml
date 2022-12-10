@@ -1,0 +1,66 @@
+<!--pages/status/status.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-form">
+		<view class="weui-form__text-area">
+			<h2 class="weui-form__title">个人信息设置</h2>
+		</view>
+		<view class="weui-form__control-area">
+			<view class="weui-cells__group weui-cells__group_form">
+				<view class="weui-cells weui-cells_form">
+
+					<view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd weui-label">学号</view>
+						<view class="weui-cell__bd weui-flex">
+							<input class="weui-input" type="text" value="{{stuID}}" bindfocus="onFocusID" bindblur="onBlurID" bindinput="onInputID" name="id"/>
+							<view wx:if="{{showClearID}}" aria-role="button" class="weui-btn_reset weui-btn_icon weui-btn_input-clear" bindtap="onClearID">
+								<i class="weui-icon-clear"></i>
+							</view>
+						</view>
+					</view>
+
+					<view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd weui-label">姓名</view>
+						<view class="weui-cell__bd weui-flex">
+							<input class="weui-input" type="text" value="{{stuName}}" bindfocus="onFocusName" bindblur="onBlurName" bindinput="onInputName"/>
+							<view wx:if="{{showClearName}}" aria-role="button" class="weui-btn_reset weui-btn_icon weui-btn_input-clear" bindtap="onClearName">
+								<i class="weui-icon-clear"></i>
+							</view>
+						</view>
+					</view>
+                    
+					<view class="weui-cell weui-cell_active weui-cell_select weui-cell_select-after">
+						<view class="weui-cell__hd">
+							<label class="weui-label" style="width: 3em">性别</label>
+						</view>
+						<view class="weui-cell__bd">
+                            <picker aria-role="combobox" bindchange="onChangeGender" range="{{genderList}}">
+                                <view class="weui-select" style="padding-left: 70rpx;">{{genderList[gender]}}</view>
+                            </picker>
+						</view>
+					</view>
+
+					<view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd weui-label">密码</view>
+						<view class="weui-cell__bd weui-flex">
+							<input class="weui-input" type="password" value="{{stuPwd}}" bindfocus="onFocusPwd" bindblur="onBlurPwd" bindinput="onInputPwd"/>
+							<view wx:if="{{showClearPwd}}" aria-role="button" class="weui-btn_reset weui-btn_icon weui-btn_input-clear" bindtap="onClearPwd">
+								<i class="weui-icon-clear"></i>
+							</view>
+						</view>
+					</view>
+
+                    <view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd weui-label">照片</view>
+						<view class="weui-cell__bd weui-flex">
+							<input class="weui-input" type="text" value="点击此处上传照片" bindtap="onTapPhoto"/>
+						</view>
+					</view>
+
+				</view>
+			</view>
+		</view>
+		<view class="weui-form__opr-area">
+			<view aria-role="button" class="weui-btn weui-btn_primary" bindtap="onSave">保存</view>
+		</view>
+	</view>
+</view>

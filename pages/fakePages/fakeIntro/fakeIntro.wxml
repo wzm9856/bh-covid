@@ -1,0 +1,62 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<form class="weui-form" catchsubmit="formSubmit">
+		<view class="weui-form__text-area">
+			<h2 class="weui-form__title">取餐宝设置</h2>
+		</view>
+		<view class="weui-form__control-area">
+			<view class="weui-cells__group weui-cells__group_form">
+				<view class="weui-cells weui-cells_form">
+					<view class="weui-cell">
+						<view class="weui-cell__hd">
+							<label class="weui-label">学号</label>
+						</view>
+						<view class="weui-cell__bd">
+							<label style="width:400rpx">{{stuID}}</label>
+						</view>
+					</view>
+					<view class="weui-cell">
+						<view class="weui-cell__hd">							
+							<label class="weui-label">姓名</label>
+						</view>
+						<view class="weui-cell__bd">
+							<label class="weui-label">{{name}}</label>
+						</view>
+						<view class="weui-cell__bd">
+						</view>
+					</view>
+					<view class="weui-cell">
+						<view class="weui-cell__hd">
+							<label class="weui-label">性别</label>
+						</view>
+						<view class="weui-cell__bd">
+							<label style="width:400rpx">{{gender}}</label>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="weui-form__tips-area">
+			<view class="weui-form__tips">
+                如您需要使用取餐宝，请联系开发者
+			</view>
+			<view class="weui-form__tips">
+                确定后十秒加载未结束请返回重试
+			</view>
+			<view class="weui-form__tips">
+				万一遭遇不测，请说“我给保安看了截图，就出去了”
+			</view>
+		</view>
+		<view style="margin: 32px 0;">
+			<button  class="weui-btn weui-btn_primary" bindtap="proceed" data-id="1">直接扫码</button>
+		</view>
+		<view class="weui-form__opr-area" >
+			<button class="weui-btn weui-btn_default" bindtap="proceed" data-id="2">进入小程序模拟器</button>
+		</view>
+		<!-- <view class="weui-form__opr-area">
+			<button class="weui-btn weui-btn_primary" bindtap="loc">定位</button>
+		</view>
+		<view class="weui-form__opr-area">
+			<button class="weui-btn weui-btn_primary" bindtap="highloc">高定位</button>
+		</view> -->
+	</form>
+</view>

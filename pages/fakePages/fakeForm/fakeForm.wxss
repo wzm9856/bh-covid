@@ -1,0 +1,13 @@
+.img{
+  width: 100%;
+}
+.stickyClassTop{
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
+}
+
+.stickyClassBtm{
+  position: sticky;
+  bottom: 0;
+}

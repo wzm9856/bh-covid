@@ -1,0 +1,192 @@
+.loadingBlack{
+  background-color: black;
+  height: 100%;
+  width:100%;
+  position: absolute;
+  opacity: 0.2;
+  z-index: 10;
+}
+
+.pink{
+  background: linear-gradient(0, #34a853, #47cf6c);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.card{
+  width: 95%;
+  height: 1100rpx;
+  left: 2.5%;
+  position: relative;
+  top: 20rpx;
+  z-index: 2;
+}
+
+.cardImage{
+  width: 100%;
+  height: 100%;
+}
+
+.top_button_group{
+  position: relative;
+  top: 35rpx;
+  height: 90rpx;
+  text-align: center;
+}
+
+.top_button_group .unchecked{
+  background-color: white;
+  color: gray;
+  font-family: PingFangSC-Regular,Arial,Microsoft YaHei;
+  font-size: 28rpx;
+  padding: 20rpx 35rpx;
+  border:3rpx #DCDFE6 solid;
+  border-right: 0;
+}
+.top_button_group .checked{
+  background-color: #0a3f8e;
+  color: white;
+  font-family: PingFangSC-Regular,Arial,Microsoft YaHei;
+  font-size: 28rpx;
+  padding: 20rpx 35rpx;
+  border:3rpx #0a3f8e solid;
+  border-left: 0;
+}
+
+.head{
+  z-index: 2;
+  width: 80%;
+  height: 145rpx;
+  left: 10%;
+  top: 68rpx;
+  position: absolute;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.head .xytxk .logo{
+  height: 100%;
+  width: 9%;
+  vertical-align: middle;
+}
+
+.head .xytxk{
+  font-size: 16px;
+  font-family: PingFang SC;
+  font-weight: 900;
+  color: #333;
+  vertical-align: middle;
+  height: 50rpx;
+}
+
+.head .date{
+  height: 40%;
+  line-height: 55rpx;
+  background: rgba(52,168,83,.1);
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: PingFangSC-Regular,Arial,Microsoft YaHei;
+  font-weight: 600;
+  color: #34a853;
+  margin: 0 auto;
+  margin-top: 25rpx;
+  text-align: center;
+}
+
+.head .date .num{
+  font-weight: 600;
+}
+
+.head .date .char{
+  font-weight: 500;
+}
+
+.portrait{
+  z-index: 3;
+  width: 240rpx;
+  height: 330rpx;
+  position: absolute;
+  top: 250rpx;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 30rpx;
+}
+
+.portrait .bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.portrait .face{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.detail{
+  z-index: 4;
+  width: 80%;
+  top: 675rpx;
+  height: 250rpx;
+  border-bottom: 1px solid #e5e5e5;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  justify-content: center;
+  display: flex;
+  font-size: 12px;
+}
+
+.detail .title{
+  color: #878787;
+  text-align: justify;
+  text-align-last: justify;
+  width: 140rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  margin-left: 150rpx;
+  margin-bottom: 5rpx;
+}
+
+.detail .maohao{
+  color: #878787;
+  text-align: justify;
+  text-align-last: justify;
+  font-family: PingFang SC;
+  font-weight: 500;
+  margin-bottom: 5rpx;
+}
+
+.detail .content{
+  width: 400rpx;
+  color: #333;
+  margin-bottom: 5rpx;
+}
+
+.passAllowed{
+  z-index: 6;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #34a853;
+  position: absolute;
+  bottom: 70rpx;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.splash{
+  width: 100%;
+  height: 300rpx;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+}

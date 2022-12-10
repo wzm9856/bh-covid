@@ -1,0 +1,27 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-form">
+		<view class="weui-form__text-area">
+			<h2 class="weui-form__title">饿了么</h2>
+			<view class="weui-form__desc" style="white-space: pre-wrap;">以下两渠道均可每日领外卖红包
+再在小程序或app下单
+用不用券也都可以</view>
+		</view>
+		<view class="weui-form__control-area">
+      <view class="weui-cells__group weui-cells__group_form">
+        <view class="weui-cells weui-cells_form">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <textarea class="weui-textarea" bindtap="tapkouling" bindlongpress="tapkouling" disabled="{{true}}">5.0￥gareXLL1sJA￥ https://m.tb.cn/h.f1fwOkz  点这里复制淘口令打开淘宝，每日领饿了么餐饮红包</textarea>
+                </view>
+            </view>
+        </view>
+      </view>
+		</view>
+    <view class="weui-form__text-area">
+      <view class="weui-form__desc">或</view>
+    </view>
+    <button class="weui-btn weui-btn_primary" bindtap="jumptoele" style="margin: 10% auto;">跳转饿了么小程序</button>
+    <view class="page__desc" >成交金额的5.4%将被开发者拿来租服务器和域名</view>
+    <view class="page__desc" >有您的支持小程序才得以持续运行，衷心感谢您的帮助！！</view>
+	</view>
+</view>

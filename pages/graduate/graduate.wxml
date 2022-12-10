@@ -1,0 +1,18 @@
+<view class="page">
+  <view class="page__hd">
+      <view class="page__title page__title__space">恭喜大家！！！</view>
+      <view class="page__desc">时光飞逝日月如梭！在用我这个程序的大概一半同学应该都是和我一样马上要结束在北航度过的六年半时光，恭喜大家都成功熬过来了！（转博除外，同志们加油啊！）</view>
+        <view class="page__desc">从2020年开始，为了对抗邪恶北航而诞生的自动打卡程序也经多次迭代逐渐拓展出了绿卡模拟器的功能，持续运行近三年来基本上也是没遇到什么问题，感谢各位同学一路走来的支持与理解！</view>
+
+      <view class="page__title page__title__space">未来会怎样</view>
+      <view class="page__desc">虽然要毕业了，但是小程序不会立刻关停，但也不会继续更新了，学校系统修改将会导致小程序失效。</view>
+      <view class="page__desc">代码虽然写的不咋地，但毕业后这程序的代码还是会发到github.com/wzm9856/bh-covid供大家修改迭代。</view>
+
+      <view class="page__title page__title__space">打钱</view>
+      <view class="page__desc">虽然服务器每个月服务器费用不多，但是经年累月也能吃上两顿第六季了。各位朋友要是觉得我这程序给您的研究生生活带来了一些方便，可以考虑支持一下我的服务器。感谢各位朋友！！（但打钱并不意味着小程序能够获得持续更新）</view>
+      <a role="button" class="weui-btn weui-btn_primary page__title__space" ontap="zan">打钱</a>
+      <view class="page__desc page__title__space">因为毕业所以肆无忌惮，如果有同学想要把这个程序分享给朋友，可以直接微信联系我，可以帮你配置！（因为使用人数上限有限制，所以超过两个月没打过卡也没用过绿卡的我就直接删了</view>
+      
+      <view class="page__title page__title__space">最后，毕业快乐！！！</view>
+  </view>
+</view>

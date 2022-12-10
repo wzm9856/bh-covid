@@ -1,0 +1,12 @@
+.topView{
+  margin-top: 15%;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rpx 10%;
+}
+.buttonView{
+  margin-top: 20%;
+}

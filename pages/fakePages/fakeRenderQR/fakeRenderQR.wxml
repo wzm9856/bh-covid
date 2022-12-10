@@ -1,0 +1,55 @@
+<!--pages/fakePages/fakeRenderQR/fakeRenderQR.wxml-->
+<image hidden="{{hiddenStatus!=1}}" src="./loading.jpg" style="width: 100%;" mode="widthFix"></image>
+<view hidden="{{hiddenStatus!=2}}" style="background-color: #f2f2f2; height: 100%;">
+<view class="epide_outer" bindtap="taptitle">
+    <view class="logo">
+        <image src="./xiaohui.jpg"></image>
+        <view>北京航空航天大学</view>
+    </view>
+    <view class="detail" style="position: relative;">
+        <image src="./mengceng.png"></image>
+        <view class="users">
+            <view class="row">
+                <view class="title">姓名</view>
+                <view class="content">{{name}}</view>
+                <view class="title" style="width: 15%;">学工号</view>
+                <view class="content">{{id}}</view>
+            </view>
+            <view class="row" style="margin-top: 20rpx;">
+                <view class="title">单位</view>
+                <view class="content" style="width: 88%;">仪器科学与光电工程学院20{{grade}}级</view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="maincontent" >
+    <view class="qrview">
+        <view class="qr-title">通行码</view>
+        <view class="qr-time">扫码时间: {{time}}</view>
+        <image class="qrcode" src="./qr.png" bindtap="tapqr" hidden="{{(qrtapped%4)==0}}"></image>
+        <view class="qrcode" bindtap="tapqr" hidden="{{(qrtapped%4)!=0}}">二维码生成中...</view>
+    </view>
+    <view class="margin-line"></view>
+    <view class="qrview">
+        <view class="qr-title loc" style="border-bottom: 1px solid #e5e5e5;">所在位置</view>
+        <view class="row" style="align-items: center; justify-content: center;">
+            <view class="qr-time loc" bindtap="changeGate">{{gate}}</view>
+            <view class="qr-time loc" bindtap="changeDir">{{direction}}</view>
+            <view class="qr-time loc">{{gateString}}</view>
+        </view>
+    </view>
+    <view class="margin-line"></view>
+    <view class="qrview" bindtap="tapOpenGreenCard" hidden="{{!openCardVisible}}">
+        <view class="open-green-card">打开出入校通行码</view>
+    </view>
+    <view class="margin-line"></view>
+    <view class="qrview">
+        <view class="qr-city">您14天内途径的城市：</view>
+    </view>
+    <view class="contact">
+        <view class="lrline"></view>
+        <view class="contactContent">若对通行码有疑问，请联系82317005</view>
+        <view class="lrline"></view>
+    </view>
+</view>
+</view>

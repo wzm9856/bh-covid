@@ -1,0 +1,59 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="page__hd">
+		<view class="page__title">给作者打钱</view>
+		<view class="page__desc">您在以下渠道进行购物时，若能在购买前使用以下的链接转换工具，从获得的链接中将商品加入购物车或直接下单，作者能够得到一笔佣金，以支持服务器和域名的购买费用。</view>
+	</view>
+	<view class="weui-grids">
+		<navigator class="weui-grid" hover-class='button-hover' url="/pages/support/tb/tb">
+			<view class="weui-grid__icon">
+				<image src="./icon/taobao.png" alt></image>
+			</view>
+			<view class="weui-grid__label">淘宝/淘特</view>
+		</navigator>
+		<navigator class="weui-grid" hover-class='button-hover' url="/pages/support/jd/jd">
+			<view class="weui-grid__icon">
+				<image src="./icon/jd.jpg" alt></image>
+			</view>
+			<view class="weui-grid__label">京东</view>
+		</navigator>
+		<navigator class="weui-grid" hover-class='button-hover' url="/pages/support/pdd/pdd">
+			<view class="weui-grid__icon">
+				<image src="./icon/pdd.jpeg" alt></image>
+			</view>
+			<view class="weui-grid__label">拼多多</view>
+		</navigator>
+	</view>
+	<view class="weui-grids">
+		<navigator class="weui-grid" hover-class='button-hover' url="/pages/support/vip/vip">
+			<view class="weui-grid__icon">
+				<image src="./icon/vip.jpeg" alt></image>
+			</view>
+			<view class="weui-grid__label">唯品会</view>
+		</navigator>
+		<navigator class="weui-grid" hover-class='button-hover' url="/pages/support/ele/ele">
+			<view class="weui-grid__icon">
+				<image src="./icon/ele.png" alt></image>
+			</view>
+			<view class="weui-grid__label">饿了么</view>
+		</navigator>
+		<navigator class="weui-grid" hover-class='button-hover' url="/pages/support/mt/mt">
+			<view class="weui-grid__icon">
+				<image src="./icon/mt.jpeg" alt></image>
+			</view>
+			<view class="weui-grid__label">美团外卖/优选</view>
+		</navigator>
+	</view>
+	<!-- <view class="weui-grids">
+		<navigator class="weui-grid" hover-class='button-hover' url="/pages/support/d11/d11" style="background-color: rgb( 0,{{time}}, {{time}});">
+			<view class="weui-grid__icon">
+				<image src="./icon/d11.jpg" alt></image>
+			</view>
+			<view class="weui-grid__label">淘宝双十一</view>
+		</navigator>
+	</view> -->
+
+	<navigator url="/pages/support/what/what" class="weui-cell weui-cell_access" hover-class="weui-cell_active" style="margin-top: 40px;">
+		<view class="weui-cell__bd">这是什么？</view>
+		<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+	</navigator>
+</view>

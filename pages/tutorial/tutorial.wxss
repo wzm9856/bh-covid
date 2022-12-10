@@ -1,0 +1,12 @@
+.page__title__space{
+  margin-top: 25px;
+}
+.descHighlight{
+  background-color: gold;
+}
+image{
+  margin: 0 auto;
+  width: 120px;
+  height: 240px;
+  display: flex;
+}

@@ -1,0 +1,17 @@
+<view class="page">
+  <view class="stickyClassTop">
+    <image class="img" src="./staticPages/3u.jpg" mode="widthFix" hidden="{{hiddenStatus!=3}}" bindtap="tapBanner"></image>
+    <image class="img" src="./staticPages/4u.jpg" mode="widthFix" hidden="{{hiddenStatus!=4}}" bindtap="tapBanner"></image>
+    <image class="img" src="./staticPages/5u.jpg" mode="widthFix" hidden="{{hiddenStatus!=5}}" bindtap="tapBanner"></image>
+  </view>
+
+  <view>
+    <image class="img" src="./staticPages/2.png" mode="widthFix" hidden="{{hiddenStatus!=2}}" bindtap="tap"></image>
+    <image class="img" src="{{src1}}" mode="widthFix" hidden="{{hiddenStatus!=3}}"></image>
+    <image class="img" src="./staticPages/4.jpg" mode="widthFix" hidden="{{hiddenStatus!=4}}"></image>
+    <image class="img" src="{{src3}}" mode="widthFix" hidden="{{hiddenStatus!=5}}"></image>
+  </view>
+
+
+  <image class="img stickyClassBtm" src="./staticPages/3b.jpg" mode="widthFix" style="bottom:0px" hidden="{{hiddenStatus!=3}}" bindtap="tapCamera"></image>
+</view>

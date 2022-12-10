@@ -1,0 +1,49 @@
+<view class="loadingBlack" style="visibility: {{loadingVisibility}};"></view>
+
+<view class="pink">
+  <view class="top_button_group">
+    <text class="{{whatXiaoMa=='出'?'checked':'unchecked'}}" style="border-radius: 10rpx 0 0 10rpx; border-right: 0;" bindtap="onTapLeft">出校码</text>
+    <text class="{{whatXiaoMa=='入'?'checked':'unchecked'}}" style="border-radius: 0 10rpx 10rpx 0; border-left: 0;" bindtap="onTapRight">入校码</text>
+  </view>
+  <view class="card">
+    <image class="card" src='/pages/fakePages/fakeCard/staticImage/cardBackground.png'></image>
+    <view class="head">
+      <view class="xytxk"><image class="logo" src="staticImage/logo.png"></image><text style="margin-left: 20rpx;">{{whatXiaoMa}}校码</text></view>
+      <view class="date"><text class="num">{{Y}}</text><text class="char">年</text><text class="num">{{M}}</text><text class="char">月</text><text class="num">{{D}}</text><text class="char">日 </text><text class="num">{{h}}:{{m}}:{{s}}</text></view>
+    </view>
+    <view class='portrait'>
+      <image class='bg' src="staticImage/green_bg.gif"></image>
+      <image class='face' src="{{avatar}}"></image>
+    </view>
+    <view class='detail'>
+      <view class='formleft'>
+        <view class="title">姓名</view>
+        <view class="title">性别</view>
+        <view class="title">学工号</view>
+        <view class="title">学院</view>
+        <view class="title">辅导员</view>
+        <view class="title">辅导员电话</view>
+      </view>
+      <view>
+        <view class="maohao">：</view>
+        <view class="maohao">：</view>
+        <view class="maohao">：</view>
+        <view class="maohao">：</view>
+        <view class="maohao">：</view>
+        <view class="maohao">：</view>
+      </view>
+      <view>
+        <view class="content">{{name}}</view>
+        <view class="content">{{gender}}</view>
+        <view class="content">{{ID}}</view>
+        <view class="content">仪器科学与光电工程学院</view>
+        <view class="content">高子亮</view>
+        <view class="content">15652579342</view>
+      </view>
+    </view>
+    <view class="passAllowed">
+      允许通行
+    </view>
+  </view>
+  <view class="splash"><image src="staticImage/splash.png" style="width:100%;height:100%"></image></view>
+</view>

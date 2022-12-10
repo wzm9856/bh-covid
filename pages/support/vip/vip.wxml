@@ -1,0 +1,10 @@
+<!--pages/support/vip/vip.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-form">
+		<view class="weui-form__text-area">
+			<h2 class="weui-form__title">唯品会</h2>
+			<view class="weui-form__desc">复制商品链接，将链接发送给机器人即可。</view>
+		</view>
+    <button class="weui-btn weui-btn_primary" open-type="contact" style="margin: 10% auto;">点击这里粘贴口令</button>
+	</view>
+</view>

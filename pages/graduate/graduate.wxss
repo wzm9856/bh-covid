@@ -1,0 +1,6 @@
+.page__title__space{
+  margin-top: 25px;
+}
+.descHighlight{
+  background-color: gold;
+}

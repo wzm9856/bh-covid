@@ -1,0 +1,8 @@
+<view class="page">
+  <view class="page__hd">
+      <view class="page__title page__title__space">这是什么？</view>
+      <view class="page__desc">佣金链接通常的用法是淘宝为有流量的博主提供其专属的佣金链接，博主在平台上发一句“这个饼可真好吃啊”，并附上该博主专属的饼购买链接，每次粉丝通过该链接买饼时，淘宝便会分给博主一定的佣金。</view>
+      <view class="page__desc">有时部分商品也会附带“粉丝专属优惠券”，通常比自己直接购买要优惠，从而提高博主带货效果。</view>
+      <view class="page__desc">您将商品链接贴上来时，程序便会解析商品内容并生成作者的佣金链接，您通过该链接直接下单或加入购物车再下单时，作者会收到佣金。</view>
+  </view>
+</view>

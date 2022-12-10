@@ -1,0 +1,46 @@
+<!--pages/status/status.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-form">
+		<h2 class="weui-form__text-area weui-form__title">欢迎光临
+		</h2>
+		<view class="weui-form__control-area weui-cells__group weui-cells__group_form">
+			<view class="weui-cells weui-cells_form">
+				<navigator url="/pages/checkSetting/checkSetting" class="weui-cell weui-cell_access" hover-class="weui-cell_active" hidden="{{hideCheck}}">
+					<view class="weui-cell__bd">打卡设置</view>
+					<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+				</navigator>
+				<navigator url='/pages/fakePages/fakeIntro/fakeIntro' class="weui-cell weui-cell_access" hover-class="weui-cell_active" hidden="{{hideSimu}}">
+					<view class="weui-cell__bd">东门取餐宝</view>
+					<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+				</navigator>
+				<navigator url="/pages/support/support" class="weui-cell weui-cell_access" hover-class="weui-cell_active" hidden="{{hideSupport}}">
+					<view class="weui-cell__bd">给作者打钱</view>
+					<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+				</navigator>
+				<navigator url="/pages/tutorial/tutorial" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+					<view class="weui-cell__bd">使用说明（首次使用请务必查看</view>
+					<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+				</navigator>
+				<navigator url="/pages/graduate/graduate" class="weui-cell weui-cell_access" hover-class="weui-cell_active" style="background-color: rgb( {{time}}, 0,0 );" hidden="{{hideSupport}}">
+					<view class="weui-cell__bd">！！毕业庆祝版！！</view>
+					<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+				</navigator>
+                <view style="margin: 32px 0 16px 0;">
+                    <button  class="weui-btn weui-btn_primary" bindtap="proceed" data-id="1">出入扫码</button>
+                </view>
+                <view class="button-sp-area" style="text-align: center;margin-bottom:32px">
+                    <button class="weui-btn weui-btn_default weui-wa-hotarea" bindtap="proceed" data-id="2" style="display: inline-block; width: 100px; margin: 0 5px;">出校</button>
+                    <button class="weui-btn weui-btn_default weui-wa-hotarea" bindtap="proceed" data-id="2" style="display: inline-block; width: 100px; margin: 0 5px;">入校</button>
+                </view>
+			</view>
+		</view>
+		<view class="weui-form__tips-area">
+			<view class="weui-form__tips">
+				v1.7.0
+			</view>
+			<view class="weui-form__tips">
+				由⏩提供支持
+			</view>
+		</view>
+	</view>
+</view>

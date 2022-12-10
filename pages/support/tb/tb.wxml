@@ -1,0 +1,35 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-form">
+		<view class="weui-form__text-area">
+			<h2 class="weui-form__title">淘宝/淘特</h2>
+			<view class="weui-form__desc">复制商品淘口令，粘贴在下方文本框，会自动复制生成的新口令，到淘宝弹窗内加入购物车或直接下单</view>
+		</view>
+		<view class="weui-form__control-area">
+      <view class="weui-cells__group weui-cells__group_form">
+        <view class="weui-cells weui-cells_form">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <textarea class="weui-textarea" placeholder="淘口令粘贴到这里" placeholder-class="weui-input__placeholder" bindinput="input" disabled="{{disabled}}" auto-focus="{{true}}"></textarea>
+                </view>
+            </view>
+        </view>
+      </view>
+		</view>
+    <view class="weui-form__control-area">
+      <view class="weui-cells__group weui-cells__group_form">
+        <view class="weui-cells weui-cells_form">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                  <textarea class="weui-textarea" placeholder="上方窗口粘贴后本窗口自动生成淘口令" placeholder-class="weui-input__placeholder" value="{{ans}}" style="height: 30px;" disabled="{{true}}"  bindtap="tapkouling" bindlongpress="tapkouling"></textarea>
+                </view>
+            </view>
+        </view>
+      </view>
+		</view>
+    <view class="page__desc" hidden="{{!focus}}">口令已为您复制到剪贴板</view>
+    <view class="page__desc" hidden="{{!(focus&&coupon)}}">为您找到{{coupon}}元优惠券，商品预估价格为{{finalPrice}}元</view>
+    <view class="page__desc" hidden="{{!focus}}">成交金额的{{rate}}%将被开发者拿来租服务器和域名</view>
+    <view class="page__desc" hidden="{{!focus}}">有您的支持小程序才得以持续运行，衷心感谢您的帮助！！</view>
+    <view class="page__desc">若发现口令无法编辑，请返回再重新进入本页</view>
+	</view>
+</view>

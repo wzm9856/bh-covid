@@ -1,0 +1,21 @@
+// pages/support/mt/mt.js
+Page({
+  jumpminiapp_mtwm(){
+    wx.navigateToMiniProgram({
+      appId: 'wxde8ac0a21135c07d',
+      path: '/index/pages/h5/h5?lch=cps:waimai:5:a144a9fa40a42c55af00214bb4bb3993971:18653dingdanxia123456:2:70690&f_userId=1&weburl=https%3A%2F%2Fclick.meituan.com%2Ft%3Ft%3D1%26c%3D1%26p%3DOWMpZ-uzIFOVe6JyOONs3dXuqV0qcAf-r-KCvHdXiNfM3oMXlDSgQ1lHQ7sc1bHIMXeq2XWRYP9S3VMvpbQU5kZjkuEHGI2HGbHW3qF7s_w805yKB3swd7pV2wcLZej-au2N8bQsYs0CGgjW-cl4N36Id3C4B72G62pglNLBClv9x-B0qfyS-pU7TshlEcAjmmLsjixo2kJwtN08ybtlcPYVgvByLLQGly79FoQsHabWoPTmbqXfvx9J6J4UeBgEPxi2lI2GkkYLGXjnAj5Kf-JYYArI8DVXvgL_BqyTrz6EJRJyiWz-1UgRYh7kS3gkocYNiffOGOtif_wa8BRiqW6jn3UV2nF1yP3GjmpkrC7dAS_Nr9kG3_qY6CVsaWlWdA9MNuZDped0sVtKcNvO1w4cUsPt8cY31vIx_9I7GG0RH0h46A3sJMMeKx0lFNEhy3FFQdwrs6SuHhz_wTH7w-BTDq77QbjK9FTEMf6z9V0ha_ioth5u7fZbM0pFWVkqmg_cJXkfLx6zmQypHzhx6EYjcQEvjkXL5ZWVviudmD5Meo2Q4k_j6OXSXZVRQZtv71z4RRz-bx3s9kjTGRDeY-sd04s2nW8JQqzHo1wlWeV18eDPDPiRByP68CjDd7o5GxO9MbqgFEMHi9kXOnSNupC1a7UenPtzHZcq64hkAtOEujbrMPSdoT2xBMuFAesRJbsAa5-Fs-l3McImE2ObLc3ytU_Rc7-DBtcDI7JzNM0jvNXsSp7hlBMfYxzGRLpfy5wBi1mTHg8X7KIL_jQXm10_t5qA_L1jU6rnhG1qIbW0qF7_eBZ3r1lF3rvYfPTU&f_token=1',
+    })
+  },
+  jumpminiapp_mtyx(){
+    wx.navigateToMiniProgram({
+      appId: 'wx77af438b3505c00e',
+      path: 'subPackages/webview/index?lch=cps:mix:5:a144a9fa40a42c55af00214bb4bb3993971:18653dingdanxia123456:22:70690&url=https%3A%2F%2Frunion.meituan.com%2Fyouxuan%2Furl%3Factid%3D22%26key%3Da144a9fa40a42c55af00214bb4bb3993971%26sid%3D18653dingdanxia123456%26target%3Dhttps%253A%252F%252Fi.meituan.com%252Fawp%252Fhfe%252Fblock%252F0fa89e3742cb33896d37%252F116372%252Findex.html%253FtargetPath%253D%25252FsubPackages%25252Ftransfer%25252Findex%25253Fprotocol%25253Digrocery%2525253A%2525252F%2525252Fwww.grocery.com%2525252Fmain%2525253Futm_term%2525253D%2525257B%25252522mtlm%25252522%2525253A%25252522cps%2525253Amix%2525253A5%2525253Aa144a9fa40a42c55af00214bb4bb3993971%2525253A18653dingdanxia123456%2525253A22%2525253A70690%25252522%2525257D%2526appkey%253Da144a9fa40a42c55af00214bb4bb3993971%253A18653dingdanxia123456',
+    })
+  },
+  jumpminiapp_mtsg(){
+    wx.navigateToMiniProgram({
+      appId: 'wxde8ac0a21135c07d',
+      path: '/index/pages/h5/h5?lch=cps:waimai:5:a144a9fa40a42c55af00214bb4bb3993971:18653dingdanxia123456:4:70690&f_userId=1&weburl=https%3A%2F%2Fclick.meituan.com%2Ft%3Ft%3D1%26c%3D1%26p%3DOWMpZ-uzIFOVe6JyOONs3cgFtCGIpBffprPipc5RY4weWgO1Lyt_UvwcB0Swox5ulcg6NfzT69VPd01Zxy5NnncPl_t9sAjVKdX3z4JwwZkxnmU5_UU4Gs_ilK1-figiSQFbHkXztTLl2GSTDa33LohxfBRcs5-MYjHsZHTHLmv7eEHuaRqG1vjWGBF03lXG2CfgKeEWxNwLOI6VR8KMS_Q3s6S4C64hFol7V8BBu6ZVE8MJfCj243gN6oycbwbcoOINWxi4tpwBKbvZWQl0iXSNhQ0L1NxYZQEjMYvghbtk3GXm0VBtoMmryn7yu-QRdcqgIvOGruhqfYT5mcXQE9vbJFmjqhxWde66oAwjsSgU4JaXTIS9re8Td4RZrGnG_kNxWEGLzcXBE5gHOsaaURquKTs96Ub9t3kwGXRMDeD7qIBp0NoWog--_AnbqnjYPBEJ-lIBMDsL2wVxV27QUiouEGmHs5RYPecjAlTY8s3xSKUArDa3_8CLBgDMKJ18FLxI0FWmcfQnoNbogiduhsIpWRM4CS7Bz66hSLsMz3gTtr_nnKFVhdYgI5ZhaK_Kan3YSJ-VONhVfA4OkiLvy96O_7fBviJY7R6vLVmzaN3kExvyP53dl9TpQA6Vn4wQBCJ6fBtEvOk7pPggnC9Zmrr5_bt7HEnQcHG0k7xBWRJa2gutLwhEpI8g0k5naMR0EMKYxdwXLklVcFl33_gy6p_yPlK26nKyLKC9tWXCrKDLSqp5BZAQbjSEgHCc0NT62W_J0KNIVMGHB0KCXucgHum7PZ57h6xaT6MXqvYsAkqdlyZG3UXkx0eabmSUNcGisuXShg49TjT2FRGLs-v_kDwb_Pq7XKZTQFNVR3SoX2Q&f_token=1',
+    })
+  }
+})

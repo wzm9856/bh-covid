@@ -1,0 +1,13 @@
+.weui-grid {
+  position: relative;
+  float: left;
+  padding: 25px 15px 15px 15px;
+  width: 33.33333333%;
+  box-sizing: border-box;
+  background-color: white;
+}
+.weui-grid__icon {
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+}

@@ -1,0 +1,18 @@
+<!--pages/support/mt/mt.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-form">
+		<view class="weui-form__text-area">
+			<h2 class="weui-form__title">美团外卖/优选</h2>
+			<view class="weui-form__desc" style="white-space: pre-wrap;">跳转美团小程序领取红包
+领取后在小程序或app下单均可
+用不用红包也都可以</view>
+		</view>
+    <button class="weui-btn weui-btn_primary" bindtap="jumpminiapp_mtwm" style="margin: 10% auto;">美团外卖</button>
+		<button class="weui-btn weui-btn_primary" bindtap="jumpminiapp_mtyx">美团优选</button>
+    <view class="page__desc" style="margin-bottom: 10%;">社区团购，丽亭华苑楼下联通营业厅取货的那个</view>
+		<button class="weui-btn weui-btn_primary" bindtap="jumpminiapp_mtsg">美团闪购</button>
+    <view class="page__desc" style="margin-bottom: 10%;">超市送货到家</view>
+    <view class="page__desc" >成交金额的2.4%将被开发者拿来租服务器和域名</view>
+    <view class="page__desc" >有您的支持小程序才得以持续运行，衷心感谢您的帮助！！</view>
+	</view>
+</view>

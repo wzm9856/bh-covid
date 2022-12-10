@@ -1,0 +1,19 @@
+/* pages/support/tb/tb.wxss */
+.weui-form{
+  padding-top: 20px
+}
+.weui-form__control-area{
+  margin: 20px 0;
+}
+.weui-form__opr-area {
+  margin-bottom: 0px;
+}
+.weui-cells__group_form .weui-cell {
+  padding: 8px 32px;
+}
+.weui-textarea {
+  height: 90px;
+}
+.page__desc{
+  text-align: center;
+}

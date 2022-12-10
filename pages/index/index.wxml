@@ -1,0 +1,9 @@
+<view class="topView">
+	<text class="center" style="margin-top: 400rpx;">你好，欢迎光临</text>
+	<text>\n</text>
+	<text class="center">首先请向我们提供您的账号信息</text>
+	<text>\n</text>
+</view>
+<view class="buttonView">
+	<button class="weui-btn weui-btn_primary" bindtap="auth" >授权微信信息</button>
+</view>

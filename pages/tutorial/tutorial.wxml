@@ -1,0 +1,31 @@
+<view class="page">
+  <view class="page__hd">
+      <view class="page__title" style="background-color: rgb({{time}}, {{time}}, 0);">首次使用前一定要先演练一下，不要被其他人看到没必要看到的东西</view>
+
+      <view class="page__title page__title__space">更新日志v1.6.0</view>
+      <view class="page__desc">更新日期2022.8.18</view>
+      <view class="page__desc">[置顶][火热]现可用于进入家属区及大运村扫码</view>
+      <view class="page__desc">1. 出校卡也与时俱进的更改了样式</view>
+
+      <view class="page__title page__title__space">给作者打钱</view>
+      <view class="page__desc">在网购下单前使用“给作者打钱”中的链接转换工具，从生成的链接中将商品加入购物车或直接下单，作者即可从电商处收到一笔佣金，用于租用服务器和域名。</view>
+      <view class="page__desc">使用淘宝、拼多多时，您偶尔还能从链接中获得“粉丝福利优惠券”，通常要比直接下单要更优惠些。</view>
+      <view class="page__desc">有了您的帮助，本小程序才得以持续运行，谢谢！！！感恩的心送给您！！</view>
+
+      <view class="page__title page__title__space">使用说明</view>
+      <view class="page__desc">欢迎您使用本工具。本工具有两个主要功能，自动打卡和东门取餐宝。</view>
+
+      <view class="page__desc page__title__space"><text style="font-weight: bolder;">东门取餐宝</text>用于临时从东门离开取外卖。如您有使用需求请您联系开发者手动为您设置学号姓名以及照片。</view>
+      <view class="page__desc descHighlight">进入宝宝后，在“应用”界面点击屏幕底部任意位置可进入二维码扫描界面。</view>
+      <image src="./1.jpg"></image>
+      <view class="page__desc">点圈住的地方扫码</view>
+      <view class="page__desc descHighlight">扫描出入校二维码可自动解析大门信息及进出方向，如果是新贴出来的小程序码，我可能还没有收录进来，需要注意不要给保安看到你的绿码截面！！扫描不知道是什么的二维码会随机设置大门信息，如不正确可点击下图红框处即可修改</view>
+      <view class="page__desc">多次点击二维码区域，可将其变为“二维码生成中...”以应对学校服务器抽风情况</view>
+      <view class="page__desc">多次点击下图橙框区域，可返回假条首页</view>
+      <image src="./3.png"></image>
+
+      <view class="page__desc page__title__space"><text style="font-weight: 900;">自动打卡</text>开关开启后，将于每日下午4点半左右的随机时间默认使用校内地址打卡，四点至四点半期间操作打卡开关可能导致不可预料的后果</view>
+      <view class="page__desc">由于微信限制，如您想持续接收打卡通知，需在主页点“+1”按钮累计通知次数，可勾选 记住选择 以简化流程。</view>
+
+  </view>
+</view>

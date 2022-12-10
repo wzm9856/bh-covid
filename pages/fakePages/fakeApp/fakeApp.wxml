@@ -1,0 +1,6 @@
+<view class="page">
+  <view class="stickyClassTop">
+    <image class="img" src="{{pic1loc}}" mode="widthFix" style="width:750rpx" hidden="{{hiddenStatus!=1}}" bindtap="tap1"></image>
+    <image class="img" src="{{pic2loc}}" mode="widthFix" style="width:750rpx" hidden="{{hiddenStatus!=2}}" bindtap="tap2"></image>
+  </view>
+</view>

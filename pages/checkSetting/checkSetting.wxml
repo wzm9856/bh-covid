@@ -1,0 +1,68 @@
+<!--pages/status/status.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-form">
+		<h2 class="weui-form__text-area weui-form__title">打卡设置</h2>
+		<view class="weui-form__control-area weui-cells__group weui-cells__group_form">
+			<view class="weui-cells weui-cells_form">
+				<view class="weui-cell">
+					<view class="weui-cell__bd">账户名</view>
+					<view text-align:right>
+						<text>{{stuID}}</text>
+					</view>
+				</view>
+				<view class="weui-cell weui-cell_active weui-cell_switch">
+					<view class="weui-cell__bd">自动打卡开启</view>
+					<view class="weui-cell__ft">
+						<label class="weui-switch-cp">
+							<switch type="switch" checked="{{isAutoCheck}}" bindchange="checkChange"/>
+						</label>
+					</view>
+				</view>
+				<view class="weui-cell weui-cell_active weui-cell_switch">
+					<view class="weui-cell__bd">接收通知消息</view>
+					<view class="weui-cell__ft">
+						<label class="weui-switch-cp">
+							<switch type="switch" checked="{{isNotif}}" bindchange="notifChange" color="{{isAutoCheck?'':'#C0C0C0'}}"/>
+						</label>
+					</view>
+				</view>
+				<view class="weui-cell weui-cell_active weui-cell_switch">
+					<view class="weui-cell__bd">自定义位置</view>
+					<view class="weui-cell__ft">
+						<label class="weui-switch-cp">
+							<switch type="switch" checked="{{isHome}}" bindchange="homeChange" color="{{isAutoCheck?'':'#C0C0C0'}}"/>
+						</label>
+					</view>
+				</view>
+				<view class="weui-cell" hidden="{{!isHome}}" bindtap="findLoc">
+					<view class="weui-cell__bd">点击定位</view>
+					<view text-align:right style="width: 70%;">
+						<text>{{homePos}}</text>
+					</view>
+				</view>
+				<view class="weui-cell weui-cell_active">
+					<view class="weui-cell__bd">暂停一次</view>
+					<view class="weui-cell__ft">
+						<a class="weui-btn weui-btn_mini weui-btn_primary {{isPause?'weui-btn_disabled':''}}" bindtap="pause">⏸</a>
+					</view>
+				</view>
+				<view class="weui-cell weui-cell_active">
+					<view class="weui-cell__bd">剩余通知次数</view>
+						<view text-align:right>
+							<text>{{remainMessages}}  </text>
+						</view>
+					<view class="weui-cell__ft">
+						<a class="weui-btn weui-btn_mini weui-btn_primary" bindtap="auth">  +1  </a>
+					</view>
+				</view>
+
+				<view class="weui-cell" hidden="{{hideCheck}}">
+					<view class="weui-cell__bd">今日打卡状态</view>
+					<view text-align:right>
+						<text>{{todayStatus}}</text>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

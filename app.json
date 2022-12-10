@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/status/status",
+    "pages/loginPages/redeemKey/redeemKey",
+    "pages/loginPages/ssoLogin/ssoLogin",
+    "pages/fakePages/fakeIntro/fakeIntro",
+    "pages/fakePages/fakeApp/fakeApp",
+    "pages/fakePages/fakeForm/fakeForm",
+    "pages/fakePages/fakeRenderQR/fakeRenderQR",
+    "pages/fakePages/fakeCard/fakeCard",
+    "pages/setting/setting",
+    "pages/tutorial/tutorial",
+    "pages/checkSetting/checkSetting",
+    "pages/graduate/graduate"
+  ],
+  "subpackages": [
+    {
+      "root": "pages/support",
+      "pages": [
+        "support",
+        "tb/tb",
+        "jd/jd",
+        "mt/mt",
+        "ele/ele",
+        "what/what",
+        "pdd/pdd",
+        "vip/vip"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "忘记打卡",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "networkTimeout": {
+    "request": 7000
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "请知晓你的你的位置信息将被保存在服务器上"
+    }
+  },
+  "lazyCodeLoading": "requiredComponents"
+}

@@ -1,0 +1,135 @@
+/* pages/fakePages/fakeRenderQR/fakeRenderQR.wxss */
+.epide_outer {
+    height: 330rpx;
+    width: 100%;
+    background: #0a3f8e;
+}
+.epide_outer .logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20rpx;
+}
+.epide_outer .logo>image {
+    height: 80rpx;
+    width: 80rpx;
+    left: 10rpx;
+    top: 10rpx;
+    border-radius: 50%;
+    border: 10rpx;
+}
+.epide_outer .logo>view {
+    margin-left: 10rpx;
+    color: #fff;
+    font-size: 45rpx;
+    font-weight: bold;
+}
+.epide_outer .detail>image{
+    height: 230rpx;
+    width: 100%;
+}
+.epide_outer .detail{
+    width: 100%;
+}
+.users{
+    margin: 30rpx 50rpx 50rpx 50rpx;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+.title{
+    width: 10%;
+    font-size: 30rpx;
+    font-weight: 400;
+    color: #fff;
+}
+.content{
+    width: 30%;
+    font-size: 30rpx;
+    font-weight: 900;
+    color: #fff;
+}
+.maincontent{
+    background: none !important;
+    margin: 0 20rpx;
+    position: relative;
+    top: -60rpx;
+}
+.qrview{
+    padding: 0 20rpx;
+    border-radius: 15rpx;
+    background-color: #fff; 
+}
+.margin-line{
+    height: 20rpx;
+    background: #f2f2f2;
+}
+.qr-title{
+    text-align: center;
+    font-size: 35rpx;
+    font-weight: bold;
+    color: #333;
+    height: 70rpx;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.qr-time{
+    text-align: center;
+    font-size: 30rpx;
+    color: #0a3f8e;
+    height: 70rpx;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.qr-city{
+    color: #878787;
+    font-size: 27rpx;
+    padding: 30rpx 10rpx;
+}
+.qrcode{
+    padding: 35rpx 0;
+    display: flex;
+    width: 330rpx; 
+    height: 330rpx;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 30rpx;
+}
+.contact{
+    padding: 40rpx 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.contact .lrline{
+    width: 50rpx;
+    height: 1px;
+    background: #e5e5e5;
+}
+.contact .contactContent{
+    font-weight: bold;
+    color: #333;
+    font-size: 28rpx;
+    margin: 0 20rpx;
+}
+.loc{
+    height: 85rpx;
+}
+.open-green-card{
+    font-weight: bold;
+    color: #a91d26;
+    padding: 20rpx 10rpx;
+}
+.another-gate-name{
+    color: #333;
+    font-size: 28rpx;
+    padding: 30rpx 10rpx;
+}
