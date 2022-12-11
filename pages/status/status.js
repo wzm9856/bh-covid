@@ -100,6 +100,50 @@ Page({
       }
     })
   },
+  proceed(e) { 
+    var pageins = this
+    wx.requestSubscribeMessage({
+      tmplIds: ["jrrc7vDbhcHZhE-ycyz9q_wnHngeAmtUgB4aJMUMNRE",'KWceQL3NSa9JF2GVuAYhTOeOC_8CLZX0qDCsHoLaWp8'],
+      success (res) {
+        if(res['jrrc7vDbhcHZhE-ycyz9q_wnHngeAmtUgB4aJMUMNRE']==='accept'){
+          wx.showLoading({title: '正在提交',})
+          wx.request({
+            url: 'https://www.wzm9856.top/changeSetting',
+            data:{
+              sessionID: app.globalData.sessionID,
+              change_type: 'add_message',
+              amount: 1
+            },
+            complete(res){
+              wx.hideLoading()
+              app.authentication_check(res)
+              if(res.data.status === 'ok'){
+                pageins.setData({remainMessages: res.data.remainMessages})
+              }
+            },
+          })
+          var dir = 0;
+          wx.scanCode({
+            success (res) {
+                console.log(res);
+                if(res.scanType === 'WX_CODE'){
+                    if(res.rawData === "a1p5cFkxVUdLd184flVDcVE7RGlZMVMvQmRTfmk7KzpM"){//大运村出校
+                        dir=0;
+                    }
+                    else if(res.rawData === "azRXa0lJYUY3ak1Bfi5aRTZuQlQvdXl4R2Z3clZGRkEj"){//大运村入校
+                        dir=1;
+                    }
+                }
+                // pageins.setData({hiddenStatus: 1})
+                // wx.setNavigationBarTitle({title: '通行码'})
+                // setTimeout(()=>{pageins.setData({hiddenStatus: 2})},1000)
+                wx.redirectTo({url: '/pages/fakePages/fakeCard/fakeCard?dir='+String(dir)})
+            }
+          });
+        }
+      }
+    })
+  },
   onPullDownRefresh: function () {
     wx.stopPullDownRefresh()
   },

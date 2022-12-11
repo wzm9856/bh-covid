@@ -91,26 +91,11 @@ Page({
             success (res) {
                 console.log(res);
                 if(res.scanType === 'WX_CODE'){
-                    if(res.rawData === "a2EyYno3SDBRamJBfixOV0t0TDg5Vno4cE83KWI6IVFZ"){
-                        pageins.setData({gateString: "1号临时通道出（校园南路11公寓南侧）", gate: "", direction: ""});
-                    }
-                    else if(res.rawData === "azUydnhGRU5Sa0VzfitfKlVNTiQjVyEqQzNOdnVrY01w"){
-                        pageins.setData({gateString: "1号临时通道进（校园南路11公寓南侧）", gate: "", direction: ""});
-                    }
-                    else if(res.rawData === "a1p5cFkxVUdLd184flVDcVE7RGlZMVMvQmRTfmk7KzpM"){
+                    if(res.rawData === "a1p5cFkxVUdLd184flVDcVE7RGlZMVMvQmRTfmk7KzpM"){
                         pageins.setData({gateString: "大运村出校", gate: "", direction: ""});
                     }
                     else if(res.rawData === "azRXa0lJYUY3ak1Bfi5aRTZuQlQvdXl4R2Z3clZGRkEj"){
                         pageins.setData({gateString: "大运村入校", gate: "", direction: ""});
-                    }
-                    else if(res.rawData === "a1pFSUdNSW1JWjVZfiNrb3hQOEkmLDZvN3UtKFJKVDpx"){
-                        pageins.setData({gateString: "3号临时通道进（校园北路思源楼东北角）", gate: "", direction: ""});
-                    }
-                    else if(res.rawData === "a3JySHRySy1uM1owfjdQZEopQkFjZS9IS09Zdktab0JR"){
-                        pageins.setData({gateString: "3号临时通道出（校园北路思源楼东北角）", gate: "", direction: ""});
-                    }
-                    else{
-                        pageins.setData({gateString: "1号临时通道出（校园南路11公寓南侧）", gate: "", direction: ""});
                     }
                 }
                 else{
